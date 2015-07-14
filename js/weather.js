@@ -1,39 +1,50 @@
-$('input[name="inputLocation"]').focusin(function(){
-  if ($('input[name="inputLocation"]').val() == 'Reading, Liverpool, Glasgow or even Paris.') {
-    $('input[name="inputLocation"]').val('');
-  }
-});
-
-$('input[name="inputLocation"]').focusout(function(){
-    if ($('input[name="inputLocation"]').val() == '') {
-      $('input[name="inputLocation"]').val('Reading, Liverpool, Glasgow or even Paris.')
-    }
-});
-
 $(document).keypress(function (event) {
     if (event.which == 13) {
+      console.log('enter pressed');
       formResults();
     }
 });
 
+$(document).keyup(function (event) {
+    if (event.which == 27) {
+      console.log('esc pressed');
+      formReset();
+    }
+});
+
+function formReset() {
+  $('[resultContainer]').hide();
+  $('[inputArea]').show();
+  $('[inputLocation]').val('');
+  $('[container]').removeClass();
+  $('[container]').addClass('container-fluid');
+  $('[resultName]').empty();
+  $('[resultDesc]').empty();
+  $('[resultTemp]').empty();
+  $('[resultError]').empty();
+};
+
 function formResults() {
-  var formLocation = $('input[name="inputLocation"]').val();
+  var formLocation = $('[inputLocation]').val();
   var openWeatherMapURL = "http://api.openweathermap.org/data/2.5/weather?q=" + formLocation + "&units=metric";
   $.getJSON(openWeatherMapURL, function (weatherResults) {
       console.log(weatherResults);
+      console.log(weatherResults.main.temp.toPrecision(3));
       results(weatherResults);
   })
 
   function results(weatherResults) {
     if (weatherResults !== 'undefined') {
       var tempExact = weatherResults.main.temp.toPrecision(3);
-      $('.input-area').hide();
-      $('.container-fluid').addClass("weather-" + weatherResults.weather[0].main.toLowerCase());
-      $('.result-name').append(weatherResults.name)
-      $('.result-desc').append(weatherResults.weather[0].description)
-      $('.result-temp').append(tempExact + '&deg;C')
+      $('[inputArea]').hide();
+      $('[resultContainer]').show();
+      $('[container]').addClass("weather-" + weatherResults.weather[0].main.toLowerCase());
+      $('[resultName]').text(weatherResults.name)
+      $('[resultDesc]').text(weatherResults.weather[0].description)
+      $('[resultTemp]').html(tempExact + '&deg;C')
+      $('[resultHelp]').text('Press ESC to go back')
     } else {
-      $('.result-error').append('somethings gone wrong !!')
+      $('[resultError]').text('somethings gone wrong !!')
     }
   }
 }

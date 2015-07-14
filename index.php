@@ -15,25 +15,27 @@
   <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 <body>
-  <div class="container-fluid">
+  <div class="container-fluid" container>
     <div class="row vertical-align">
     <div class="wrapper">
-      <div class="input-area col-xs-10 col-md-offset-1" style="text-align: justify;">
+      <div class="input-area col-xs-10 col-md-offset-1" inputArea>
         <h1 class="text-center">
           Open Weather Maps &amp; JavaScript Demonstration
         </h1>
-        <h3>
+        <h3 class="margin">
           Where would you like a weather status for?
         </h3>
-        <input type="text" name="inputLocation" class="form-control" value="Reading, Liverpool, Glasgow or even Paris.">
-        <p class="help-block">
+        <input type="text" inputLocation class="form-control" placeholder="Reading, Liverpool, Glasgow or even Paris.">
+        <p class="help-block margin">
           Press ENTER to see how things are looking.
         </p>
       </div><!--- Close input-area div --->
-      <div class="results-container">
-        <h1 class="result-name"></h1>
-        <p class="result-desc"></p>
-        <h3 class="result-temp"></h3>
+      <div class="results-container col-xs-12 col-sm-8 col-md-4 col-lg-2" resultContainer>
+        <h1 class="result-name" resultName></h1>
+        <p class="result-desc" resultDesc></p>
+        <h3 class="result-temp" resultTemp></h3>
+        <p class="result-error bg-danger" resultError></p>
+        <p class="result-help help-block" resultHelp></p>
       </div>
     </div><!--- Close wrapper div --->
   </div><!--- Close row vertical-align div --->

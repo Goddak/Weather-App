@@ -1,3 +1,33 @@
+.weather-haze{
+  background-image: url(../img/fog.JPG);
+  background-size: cover;
+}
+
+.weather-clouds{
+  background-image: url(../img/clouds.JPG);
+  background-size: cover;
+}
+
+.weather-rain{
+  background-image: url(../img/rain.JPG);
+  background-size: cover;
+}
+
+.weather-clear{
+  background-image: url(../img/clear.jpg);
+  background-size: cover;
+}
+
+.weather-extreme{
+  background-image: url(../img/extreme.JPG);
+  background-size: cover;
+}
+
+.weather-snow{
+  background-image: url(../img/snow.JPG);
+  background-size: cover;
+}
+
 .vertical-align {
   height: 100vh;
   display: table;
@@ -10,20 +40,16 @@
   width: 100vw;
 }
 
-.text-wrapper{
-  text-align: justify;
-}
-
-.input-area{
-
-}
-
 .results-container{
   text-align: center;
+  background-color: #F5F5F5;
+  opacity:0.6;
+  filter:alpha(opacity=60);
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
 }
 
-.results-error{
-  text-align: center;
-  font-weight: bolder;
-  color: red;
+.margin{
+  margin-left: 13px;
 }
