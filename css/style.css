@@ -1,0 +1,29 @@
+.vertical-align {
+  height: 100vh;
+  display: table;
+  table-layout: fixed;
+}
+
+.wrapper{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100vw;
+}
+
+.text-wrapper{
+  text-align: justify;
+}
+
+.input-area{
+
+}
+
+.results-container{
+  text-align: center;
+}
+
+.results-error{
+  text-align: center;
+  font-weight: bolder;
+  color: red;
+}
