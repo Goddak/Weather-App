@@ -1,7 +1,14 @@
 # Weather-App
 Weather App for Pixelnebula interview
 
-Current stage is working.. Looking to add the below;
+Implemented and working;
+
+- Press enter to submit
+- Press escape to start over
+- Added basic background images and classes to submit
+- Basic Styling
+
+Current ideas to move the project forwards;
 
 - Better background images
 - Background image animation/transition (make it less jumpy)
