@@ -30,11 +30,13 @@
           Press ENTER to see how things are looking.
         </p>
       </div><!--- Close input-area div --->
-      <div class="results-container col-xs-12 col-sm-8 col-md-4 col-lg-2" resultContainer>
+      <div class="results-container col-xs-12 col-sm-8 col-md-5 col-lg-3" resultContainer>
         <h1 class="result-name" resultName></h1>
         <p class="result-desc" resultDesc></p>
         <h3 class="result-temp" resultTemp></h3>
         <p class="result-error bg-danger" resultError></p>
+      </div>
+      <div class="back-button col-xs-12 col-sm-8 col-md-5 col-lg-3" backButton>
         <p class="result-help help-block" resultHelp></p>
       </div>
     </div><!--- Close wrapper div --->
