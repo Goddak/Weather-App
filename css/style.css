@@ -47,7 +47,6 @@
   background-position: center bottom;
 }
 
-
 .vertical-align {
   height: 100vh;
   display: table;
@@ -58,6 +57,10 @@
   display: table-cell;
   vertical-align: middle;
   width: 100vw;
+}
+
+.name{
+  float: left;
 }
 
 .results-container{

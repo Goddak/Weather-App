@@ -9,7 +9,8 @@ Implemented and working;
 - Basic Styling.
 - Added focus to input box on load and escape press.
 - Improved background positioning.
-- added back button so phone had a back option.
+- Added back button so phone had a back option.
+- Added logo
 
 Known Problems;
 
@@ -22,7 +23,7 @@ Current ideas to move the project forwards;
 - Better background images.
 - Background image animation/transition (make it less jumpy).
 - implement more weather classes for more relevant background images.
-- Some sort of design for the front page, perhaps a logo.
+- Some sort of design for the front page.
 - Share feature for social media.
 - recent Instagram images from the searched area.
 

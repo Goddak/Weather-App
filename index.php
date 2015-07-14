@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>
-    Weather App - Goddak
+    Weather Status by Goddak
   </title>
   <!--- Include Bootstrap files from CDN --->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -19,10 +19,8 @@
     <div class="row vertical-align">
     <div class="wrapper">
       <div class="input-area col-xs-10 col-md-offset-1" inputArea>
-        <h1 class="text-center">
-          Open Weather Maps &amp; JavaScript Demonstration
-        </h1>
-        <h3 class="margin">
+        <img src="img/logo.png" alt="Company Logo" class="img-responsive col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+        <h3 class="margin name">
           Where would you like a weather status for?
         </h3>
         <input type="text" inputLocation class="form-control" placeholder="Reading, Liverpool, Glasgow or even Paris.">
