@@ -14,6 +14,7 @@ Current ideas to move the project forwards;
 - Background image animation/transition (make it less jumpy)
 - More background images for more specific displays
 - Some sort of design for the front page
-- Open to any other suggestions on how I can improve it
 - Share feature for social media
 - recent instagram images from that area
+
+I'm open to any other suggestions on functionality.
