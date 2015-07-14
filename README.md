@@ -7,5 +7,4 @@ Current stage is working.. Looking to add the below;
 - Background image animation/transition (make it less jumpy)
 - More background images for more specific displays
 - Some sort of design for the front page
-
-- Open to any suggestions on how I can improve.
+- Open to any other suggestions on how I can improve it.
