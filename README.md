@@ -1,4 +1,4 @@
-# WeatherStatus.com
+# WeatherStatus.com Version 1.4 (Final)
 
 This project is a request by Pixelnebula to demonstrate my current JavaScript ability.
 Whilst I have tried in the past to learn JavaScript, this project and my "Learning" JavaScript has all been since Thursday 9th July 2015 (one week before the submit date). I have put a couple of hours each day towards learning and making this project. After figuring out the basics of JavaScript, I found using/learning jQuery was much easier and it has helped me in pushing the project forwards.
