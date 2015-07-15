@@ -8,7 +8,7 @@
 	/**
 	 * Clicking on the back button will reset the form and re-focus the input button
 	 */
-	$('[backButton]').click(function() {
+	$('[resultHelp]').click(function() {
 		formReset();
 	});
 

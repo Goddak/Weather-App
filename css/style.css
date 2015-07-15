@@ -51,6 +51,10 @@
   bottom: 20px;
 }
 
+.result-help:hover{
+  cursor: pointer;
+}
+
 .margin{
   margin-left: 13px;
 }
