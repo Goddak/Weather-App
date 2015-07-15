@@ -16,7 +16,6 @@ The most recently implemented changes are;
 - Used .cod to retrieve 404 error from API.
 - Added .fadeIn and .fadeOut with .delay to reduce jumpyness between states.
 - Used setTimeout to stop background loading too soon
-- Added empty div to use for background so .fade functions can be used on background images.
 - Random strings now create an error, rather than the page just sitting idle.
 
 Known Problems;
