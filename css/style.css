@@ -1,66 +1,44 @@
-.weather-haze{
-  background-image: url(../img/fog.JPG);
+.weather {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
+  height: 100vh;
+}
+
+.weather-haze{
+  background-image: url(../img/fog.JPG);
 }
 
 .weather-clouds{
   background-image: url(../img/clouds.JPG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center bottom;
 }
 
 .weather-rain{
   background-image: url(../img/rain.JPG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center bottom;
 }
 
 .weather-clear{
   background-image: url(../img/clear.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center bottom;
 }
 
 .weather-extreme{
   background-image: url(../img/extreme.JPG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center bottom;
 }
 
 .weather-snow{
   background-image: url(../img/snow.JPG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center bottom;
 }
 
 .weather-thunderstorm{
   background-image: url(../img/thunder.JPG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-}
-
-.vertical-align {
-  height: 100vh;
-  display: table;
-  table-layout: fixed;
-}
-
-.wrapper{
-  display: table-cell;
-  vertical-align: middle;
-  width: 100vw;
 }
 
 .name{
   float: left;
+}
+
+.input-area{
+  margin-top: 10vh;
 }
 
 .results-container{
@@ -71,20 +49,6 @@
   position: absolute;
   right: 20px;
   bottom: 20px;
-}
-
-.result-help{
-    margin-bottom: 5px;
-}
-
-.back-button{
-  text-align: center;
-  background-color: #F5F5F5;
-  opacity:0.6;
-  filter:alpha(opacity=60);
-  position: absolute;
-  right: 20px;
-  top: 20px;
 }
 
 .margin{
